@@ -12,6 +12,9 @@ import {SetFilterModel} from "./setFilterModel";
 import {SetFilterListItem} from "./setFilterListItem";
 import {VirtualList, VirtualListModel} from "../rendering/virtualList";
 
+var HTMLElement:any = typeof HTMLElement === 'undefined' ? function(){} : HTMLElement;
+var HTMLSelectElement:any = typeof HTMLSelectElement === 'undefined' ? function(){} : HTMLSelectElement;
+
 let svgFactory = SvgFactory.getInstance();
 
 export class SetFilter extends BaseFilter <string, ISetFilterParams, string[]> {
@@ -34,7 +37,7 @@ export class SetFilter extends BaseFilter <string, ISetFilterParams, string[]> {
     private eIndeterminateCheckedIcon: HTMLElement;
 
     private selected: boolean = true;
-    
+
     constructor() {
         super();
     }
@@ -209,7 +212,7 @@ export class SetFilter extends BaseFilter <string, ISetFilterParams, string[]> {
                             <span class="ag-filter-value">(${translate('selectAll')})</span>
                         </label>
                     </div>
-                    <div id="richList" class="ag-set-filter-list"></div>                    
+                    <div id="richList" class="ag-set-filter-list"></div>
                 </div>`;
     }
 

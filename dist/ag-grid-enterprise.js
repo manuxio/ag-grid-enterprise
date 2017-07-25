@@ -34132,6 +34132,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	var setFilterModel_1 = __webpack_require__(146);
 	var setFilterListItem_1 = __webpack_require__(147);
 	var virtualList_1 = __webpack_require__(148);
+	var HTMLElement = typeof HTMLElement === 'undefined' ? function () { } : HTMLElement;
+	var HTMLSelectElement = typeof HTMLSelectElement === 'undefined' ? function () { } : HTMLSelectElement;
 	var svgFactory = main_1.SvgFactory.getInstance();
 	var SetFilter = (function (_super) {
 	    __extends(SetFilter, _super);
@@ -34274,7 +34276,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	    SetFilter.prototype.bodyTemplate = function () {
 	        var translate = this.translate.bind(this);
-	        return "<div>\n                    <div class=\"ag-filter-header-container\" id=\"ag-mini-filter\">\n                        <input class=\"ag-filter-filter\" type=\"text\" placeholder=\"" + translate('searchOoo') + "\"/>\n                    </div>\n                    <div class=\"ag-filter-header-container\">\n                        <label id=\"selectAllContainer\">\n                            <div id=\"selectAll\" class=\"ag-filter-checkbox\"></div>\n                            <span class=\"ag-filter-value\">(" + translate('selectAll') + ")</span>\n                        </label>\n                    </div>\n                    <div id=\"richList\" class=\"ag-set-filter-list\"></div>                    \n                </div>";
+	        return "<div>\n                    <div class=\"ag-filter-header-container\" id=\"ag-mini-filter\">\n                        <input class=\"ag-filter-filter\" type=\"text\" placeholder=\"" + translate('searchOoo') + "\"/>\n                    </div>\n                    <div class=\"ag-filter-header-container\">\n                        <label id=\"selectAllContainer\">\n                            <div id=\"selectAll\" class=\"ag-filter-checkbox\"></div>\n                            <span class=\"ag-filter-value\">(" + translate('selectAll') + ")</span>\n                        </label>\n                    </div>\n                    <div id=\"richList\" class=\"ag-set-filter-list\"></div>\n                </div>";
 	    };
 	    SetFilter.prototype.updateSelectAll = function () {
 	        if (this.model.isEverythingSelected()) {
@@ -34381,7 +34383,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    ], SetFilter.prototype, "eSelectAll", void 0);
 	    __decorate([
 	        main_1.QuerySelector('#selectAllContainer'),
-	        __metadata("design:type", HTMLElement)
+	        __metadata("design:type", Object)
 	    ], SetFilter.prototype, "eSelectAllContainer", void 0);
 	    __decorate([
 	        main_1.QuerySelector('.ag-filter-filter'),
