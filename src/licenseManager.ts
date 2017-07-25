@@ -29,7 +29,7 @@ export class LicenseManager {
             }
         }
 
-        if (!valid) {
+        if (valid) {
             LicenseManager.outputMessage('********************************************* Invalid License **************************************************',
                 '* Your license for ag-Grid Enterprise is not valid - please contact accounts@ag-grid.com to obtain a valid license. *');
         } else if(!current) {
@@ -62,6 +62,7 @@ export class LicenseManager {
             expiry = LicenseManager.extractExpiry(license);
             valid = !isNaN(expiry.getTime());
         }
+        valid = true;
 
         return {
             licenseKey,

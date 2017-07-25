@@ -1,0 +1,206 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'version',
+1 verbose cli   'patch' ]
+2 info using npm@3.8.9
+3 info using node@v6.2.0
+4 info git [ 'status', '--porcelain' ]
+5 verbose stack Error: Git working directory not clean.
+5 verbose stack M dist/ag-grid-enterprise.js
+5 verbose stack M dist/ag-grid-enterprise.min.js
+5 verbose stack M dist/ag-grid-enterprise.min.noStyle.js
+5 verbose stack M dist/ag-grid-enterprise.noStyle.js
+5 verbose stack M dist/lib/aggregation/aggFuncService.d.ts
+5 verbose stack M dist/lib/aggregation/aggFuncService.js
+5 verbose stack M dist/lib/clientExports.d.ts
+5 verbose stack M dist/lib/clientExports.js
+5 verbose stack M dist/lib/clipboardService.d.ts
+5 verbose stack M dist/lib/clipboardService.js
+5 verbose stack M dist/lib/enterpriseBoot.d.ts
+5 verbose stack M dist/lib/enterpriseBoot.js
+5 verbose stack M dist/lib/excelCreator.d.ts
+5 verbose stack M dist/lib/excelCreator.js
+5 verbose stack M dist/lib/excelXmlFactory.d.ts
+5 verbose stack M dist/lib/excelXmlFactory.js
+5 verbose stack M dist/lib/license/md5.d.ts
+5 verbose stack M dist/lib/license/md5.js
+5 verbose stack M dist/lib/licenseManager.d.ts
+5 verbose stack M dist/lib/licenseManager.js
+5 verbose stack M dist/lib/main.d.ts
+5 verbose stack M dist/lib/main.js
+5 verbose stack M dist/lib/menu/contextMenu.d.ts
+5 verbose stack M dist/lib/menu/contextMenu.js
+5 verbose stack M dist/lib/menu/enterpriseMenu.d.ts
+5 verbose stack M dist/lib/menu/enterpriseMenu.js
+5 verbose stack M dist/lib/menu/menuItemComponent.d.ts
+5 verbose stack M dist/lib/menu/menuItemComponent.js
+5 verbose stack M dist/lib/menu/menuItemMapper.d.ts
+5 verbose stack M dist/lib/menu/menuItemMapper.js
+5 verbose stack M dist/lib/menu/menuList.d.ts
+5 verbose stack M dist/lib/menu/menuList.js
+5 verbose stack M dist/lib/pivotCompFactory.d.ts
+5 verbose stack M dist/lib/pivotCompFactory.js
+5 verbose stack M dist/lib/rangeController.d.ts
+5 verbose stack M dist/lib/rangeController.js
+5 verbose stack M dist/lib/rendering/richSelect/richSelectCellEditor.d.ts
+5 verbose stack M dist/lib/rendering/richSelect/richSelectCellEditor.js
+5 verbose stack M dist/lib/rendering/richSelect/richSelectRow.d.ts
+5 verbose stack M dist/lib/rendering/richSelect/richSelectRow.js
+5 verbose stack M dist/lib/rendering/virtualList.d.ts
+5 verbose stack M dist/lib/rendering/virtualList.js
+5 verbose stack M dist/lib/rowGroupCompFactory.d.ts
+5 verbose stack M dist/lib/rowGroupCompFactory.js
+5 verbose stack M dist/lib/rowModels/enterprise/enterpriseBlock.d.ts
+5 verbose stack M dist/lib/rowModels/enterprise/enterpriseBlock.js
+5 verbose stack M dist/lib/rowModels/enterprise/enterpriseCache.d.ts
+5 verbose stack M dist/lib/rowModels/enterprise/enterpriseCache.js
+5 verbose stack M dist/lib/rowModels/enterprise/enterpriseRowModel.d.ts
+5 verbose stack M dist/lib/rowModels/enterprise/enterpriseRowModel.js
+5 verbose stack M dist/lib/rowModels/viewport/viewportRowModel.d.ts
+5 verbose stack M dist/lib/rowModels/viewport/viewportRowModel.js
+5 verbose stack M dist/lib/rowStages/aggregationStage.d.ts
+5 verbose stack M dist/lib/rowStages/aggregationStage.js
+5 verbose stack M dist/lib/rowStages/groupStage.d.ts
+5 verbose stack M dist/lib/rowStages/groupStage.js
+5 verbose stack M dist/lib/rowStages/pivotColDefService.d.ts
+5 verbose stack M dist/lib/rowStages/pivotColDefService.js
+5 verbose stack M dist/lib/rowStages/pivotStage.d.ts
+5 verbose stack M dist/lib/rowStages/pivotStage.js
+5 verbose stack M dist/lib/setFilter/setFilter.d.ts
+5 verbose stack M dist/lib/setFilter/setFilter.js
+5 verbose stack M dist/lib/setFilter/setFilterListItem.d.ts
+5 verbose stack M dist/lib/setFilter/setFilterListItem.js
+5 verbose stack M dist/lib/setFilter/setFilterModel.d.ts
+5 verbose stack M dist/lib/setFilter/setFilterModel.js
+5 verbose stack M dist/lib/statusBar/statusBar.d.ts
+5 verbose stack M dist/lib/statusBar/statusBar.js
+5 verbose stack M dist/lib/statusBar/statusItem.d.ts
+5 verbose stack M dist/lib/statusBar/statusItem.js
+5 verbose stack M dist/lib/toolPanel/columnDrop/abstractColumnDropPanel.d.ts
+5 verbose stack M dist/lib/toolPanel/columnDrop/abstractColumnDropPanel.js
+5 verbose stack M dist/lib/toolPanel/columnDrop/columnComponent.d.ts
+5 verbose stack M dist/lib/toolPanel/columnDrop/columnComponent.js
+5 verbose stack M dist/lib/toolPanel/columnDrop/pivotColumnsPanel.d.ts
+5 verbose stack M dist/lib/toolPanel/columnDrop/pivotColumnsPanel.js
+5 verbose stack M dist/lib/toolPanel/columnDrop/pivotModePanel.d.ts
+5 verbose stack M dist/lib/toolPanel/columnDrop/pivotModePanel.js
+5 verbose stack M dist/lib/toolPanel/columnDrop/rowGroupColumnsPanel.d.ts
+5 verbose stack M dist/lib/toolPanel/columnDrop/rowGroupColumnsPanel.js
+5 verbose stack M dist/lib/toolPanel/columnDrop/valueColumnsPanel.d.ts
+5 verbose stack M dist/lib/toolPanel/columnDrop/valueColumnsPanel.js
+5 verbose stack M dist/lib/toolPanel/columnsSelect/columnSelectPanel.d.ts
+5 verbose stack M dist/lib/toolPanel/columnsSelect/columnSelectPanel.js
+5 verbose stack M dist/lib/toolPanel/columnsSelect/renderedColumn.d.ts
+5 verbose stack M dist/lib/toolPanel/columnsSelect/renderedColumn.js
+5 verbose stack M dist/lib/toolPanel/columnsSelect/renderedGroup.d.ts
+5 verbose stack M dist/lib/toolPanel/columnsSelect/renderedGroup.js
+5 verbose stack M dist/lib/toolPanel/toolPanelComp.d.ts
+5 verbose stack M dist/lib/toolPanel/toolPanelComp.js
+5 verbose stack M src/licenseManager.ts
+5 verbose stack     at C:\Users\manu\AppData\Roaming\nvm\v6.2.0\node_modules\npm\lib\version.js:246:19
+5 verbose stack     at ChildProcess.exithandler (child_process.js:193:7)
+5 verbose stack     at emitTwo (events.js:106:13)
+5 verbose stack     at ChildProcess.emit (events.js:191:7)
+5 verbose stack     at maybeClose (internal/child_process.js:850:16)
+5 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+6 verbose cwd C:\Users\manu\Documents\ag-grid-enterprise
+7 error Windows_NT 10.0.10586
+8 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "version" "patch"
+9 error node v6.2.0
+10 error npm  v3.8.9
+11 error Git working directory not clean.
+11 error M dist/ag-grid-enterprise.js
+11 error M dist/ag-grid-enterprise.min.js
+11 error M dist/ag-grid-enterprise.min.noStyle.js
+11 error M dist/ag-grid-enterprise.noStyle.js
+11 error M dist/lib/aggregation/aggFuncService.d.ts
+11 error M dist/lib/aggregation/aggFuncService.js
+11 error M dist/lib/clientExports.d.ts
+11 error M dist/lib/clientExports.js
+11 error M dist/lib/clipboardService.d.ts
+11 error M dist/lib/clipboardService.js
+11 error M dist/lib/enterpriseBoot.d.ts
+11 error M dist/lib/enterpriseBoot.js
+11 error M dist/lib/excelCreator.d.ts
+11 error M dist/lib/excelCreator.js
+11 error M dist/lib/excelXmlFactory.d.ts
+11 error M dist/lib/excelXmlFactory.js
+11 error M dist/lib/license/md5.d.ts
+11 error M dist/lib/license/md5.js
+11 error M dist/lib/licenseManager.d.ts
+11 error M dist/lib/licenseManager.js
+11 error M dist/lib/main.d.ts
+11 error M dist/lib/main.js
+11 error M dist/lib/menu/contextMenu.d.ts
+11 error M dist/lib/menu/contextMenu.js
+11 error M dist/lib/menu/enterpriseMenu.d.ts
+11 error M dist/lib/menu/enterpriseMenu.js
+11 error M dist/lib/menu/menuItemComponent.d.ts
+11 error M dist/lib/menu/menuItemComponent.js
+11 error M dist/lib/menu/menuItemMapper.d.ts
+11 error M dist/lib/menu/menuItemMapper.js
+11 error M dist/lib/menu/menuList.d.ts
+11 error M dist/lib/menu/menuList.js
+11 error M dist/lib/pivotCompFactory.d.ts
+11 error M dist/lib/pivotCompFactory.js
+11 error M dist/lib/rangeController.d.ts
+11 error M dist/lib/rangeController.js
+11 error M dist/lib/rendering/richSelect/richSelectCellEditor.d.ts
+11 error M dist/lib/rendering/richSelect/richSelectCellEditor.js
+11 error M dist/lib/rendering/richSelect/richSelectRow.d.ts
+11 error M dist/lib/rendering/richSelect/richSelectRow.js
+11 error M dist/lib/rendering/virtualList.d.ts
+11 error M dist/lib/rendering/virtualList.js
+11 error M dist/lib/rowGroupCompFactory.d.ts
+11 error M dist/lib/rowGroupCompFactory.js
+11 error M dist/lib/rowModels/enterprise/enterpriseBlock.d.ts
+11 error M dist/lib/rowModels/enterprise/enterpriseBlock.js
+11 error M dist/lib/rowModels/enterprise/enterpriseCache.d.ts
+11 error M dist/lib/rowModels/enterprise/enterpriseCache.js
+11 error M dist/lib/rowModels/enterprise/enterpriseRowModel.d.ts
+11 error M dist/lib/rowModels/enterprise/enterpriseRowModel.js
+11 error M dist/lib/rowModels/viewport/viewportRowModel.d.ts
+11 error M dist/lib/rowModels/viewport/viewportRowModel.js
+11 error M dist/lib/rowStages/aggregationStage.d.ts
+11 error M dist/lib/rowStages/aggregationStage.js
+11 error M dist/lib/rowStages/groupStage.d.ts
+11 error M dist/lib/rowStages/groupStage.js
+11 error M dist/lib/rowStages/pivotColDefService.d.ts
+11 error M dist/lib/rowStages/pivotColDefService.js
+11 error M dist/lib/rowStages/pivotStage.d.ts
+11 error M dist/lib/rowStages/pivotStage.js
+11 error M dist/lib/setFilter/setFilter.d.ts
+11 error M dist/lib/setFilter/setFilter.js
+11 error M dist/lib/setFilter/setFilterListItem.d.ts
+11 error M dist/lib/setFilter/setFilterListItem.js
+11 error M dist/lib/setFilter/setFilterModel.d.ts
+11 error M dist/lib/setFilter/setFilterModel.js
+11 error M dist/lib/statusBar/statusBar.d.ts
+11 error M dist/lib/statusBar/statusBar.js
+11 error M dist/lib/statusBar/statusItem.d.ts
+11 error M dist/lib/statusBar/statusItem.js
+11 error M dist/lib/toolPanel/columnDrop/abstractColumnDropPanel.d.ts
+11 error M dist/lib/toolPanel/columnDrop/abstractColumnDropPanel.js
+11 error M dist/lib/toolPanel/columnDrop/columnComponent.d.ts
+11 error M dist/lib/toolPanel/columnDrop/columnComponent.js
+11 error M dist/lib/toolPanel/columnDrop/pivotColumnsPanel.d.ts
+11 error M dist/lib/toolPanel/columnDrop/pivotColumnsPanel.js
+11 error M dist/lib/toolPanel/columnDrop/pivotModePanel.d.ts
+11 error M dist/lib/toolPanel/columnDrop/pivotModePanel.js
+11 error M dist/lib/toolPanel/columnDrop/rowGroupColumnsPanel.d.ts
+11 error M dist/lib/toolPanel/columnDrop/rowGroupColumnsPanel.js
+11 error M dist/lib/toolPanel/columnDrop/valueColumnsPanel.d.ts
+11 error M dist/lib/toolPanel/columnDrop/valueColumnsPanel.js
+11 error M dist/lib/toolPanel/columnsSelect/columnSelectPanel.d.ts
+11 error M dist/lib/toolPanel/columnsSelect/columnSelectPanel.js
+11 error M dist/lib/toolPanel/columnsSelect/renderedColumn.d.ts
+11 error M dist/lib/toolPanel/columnsSelect/renderedColumn.js
+11 error M dist/lib/toolPanel/columnsSelect/renderedGroup.d.ts
+11 error M dist/lib/toolPanel/columnsSelect/renderedGroup.js
+11 error M dist/lib/toolPanel/toolPanelComp.d.ts
+11 error M dist/lib/toolPanel/toolPanelComp.js
+11 error M src/licenseManager.ts
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
